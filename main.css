@@ -18,7 +18,7 @@
     font-size: 70px;
     background-color: #FFF;
     padding-right: 10px;
-    border: 10px solid #ff7700;
+    border: 20px solid #F57C00;
     border-bottom: none;
     border-right: none;
     border-left: none;
@@ -41,7 +41,7 @@
 }
 
 .btn2 {
-    background-color: #ffa500;
+    background-color: #FDA500;
     color: black;
 }
 

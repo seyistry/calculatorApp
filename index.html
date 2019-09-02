@@ -1,31 +1,33 @@
 <!doctype html>
 <html lang="en-US">
+
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Calculator App</title>
-	<link href="https://fonts.googleapis.com/css?family=Manjari|Lato&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Manjari|Orbitron&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="main.css">
 </head>
+
 <body>
 	<div id="container">
 		<form name="calculator">
 			<input type="text" name="display" id="display" value="" disabled="">
 			<div>
-				<input type="button" class="btn btn1" name="7" value="7" onclick="figures(7)">
-				<input type="button" class="btn btn1" name="8" value="8" onclick="figures(8)">
-				<input type="button" class="btn btn1" name="9" value="9" onclick="figures(9)">
-				<input type="button" class="btn btn2" name="÷" value="÷" onclick="operators('/')">
-				<input type="button" class="btn btn2" name="C" value="CL" onclick="calculator.display.value =''">
+				<a href="#" class="btn btn1" name="7" value="7" onclick="figures(7)">7</a>
+				<a href="#" class="btn btn1" name="8" value="8" onclick="figures(8)">8</a>
+				<a href="#" class="btn btn1" name="9" value="9" onclick="figures(9)">9</a>
+				<a href="#" class="btn btn2" name="÷" value="÷" onclick="operators('/')">÷</a>
+				<a href="#" class="btn btn2" name="C" value="CL" onclick="calculator.display.value =''">CL</a>
 				<br/>
 				<input type="button" class="btn btn1" name="4" value="4" onclick="figures(4)">
 				<input type="button" class="btn btn1" name="5" value="5" onclick="figures(5)">
 				<input type="button" class="btn btn1" name="6" value="6" onclick="figures(6)">
 				<input type="button" class="btn btn2" name="X" value="x" onclick="operators('*')">
-                <input type="button" class="btn btn2" name="" value=" " disabled="">
-                <br/>
-                <input type="button" class="btn btn1" name="1" value="1" onclick="figures(1)">
+				<input type="button" class="btn btn2" name="" value=" " disabled="">
+				<br/>
+				<input type="button" class="btn btn1" name="1" value="1" onclick="figures(1)">
 				<input type="button" class="btn btn1" name="2" value="2" onclick="figures(2)">
 				<input type="button" class="btn btn1" name="3" value="3" onclick="figures(3)">
 				<input type="button" class="btn btn2" name="-" value="-" onclick="operators('-')">
@@ -37,9 +39,11 @@
 				<input type="button" class="btn btn2" name="+" value="+" onclick="operators('+')">
 				<input type="button" class="btn btn2" name="=" value="=" onclick="toggle()">
 				<br/>
-			</form>
+		</form>
 		</div>
 	</div>
 	<!-- Javascript files-->
 	<script src="main.js"></script>
-</body></html>
+</body>
+
+</html>

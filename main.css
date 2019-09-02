@@ -18,10 +18,11 @@
 	text-align: right;
 	font-size: 70px;
 	background-color: #FFF;
-    padding-right: 10px;
-    border: 5px solid #333;
-    margin-bottom: 5px;
-    border-bottom: none;
+        padding-right: 10px;
+        border: 10px solid #ff7700;
+        border-bottom: none;
+        border-right: none;
+        border-left: none;
 	box-sizing: border-box; 
 }
 

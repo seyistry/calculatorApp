@@ -1,3 +1,3 @@
 # calculatorApp
 A simple calculator
-![Screenshot](inspiredBy.png)
+![Inspired by this image](https://github.com/seyistry/calculatorApp/blob/master/InspiredBy.png)

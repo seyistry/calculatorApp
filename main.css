@@ -29,10 +29,14 @@
     font-family: 'Manjari', sans-serif;
     width: 20%;
     height: 100px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100px;
     border: 0;
     font-size: 40px;
-    margin-right: -4px;
-    outline: none;
+    text-decoration: none;
+    display: inline-block;
+    box-sizing: border-box;
 }
 
 .btn1 {
@@ -49,6 +53,7 @@
     .btn {
         font-size: 30px;
         height: 70px;
+        line-height: 79px;
     }
     #display {
         height: 80px;
@@ -60,6 +65,7 @@
     .btn {
         font-size: 20px;
         height: 50px;
+        line-height: 50px;
     }
     #display {
         height: 50px;
